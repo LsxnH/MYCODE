@@ -1,0 +1,14 @@
+
+*) getRunInfoFromCOOL.py
+ - add stable beam flag per LB
+ - add run stop time stamp
+ - add minimum run luminosity
+ - add stable beams integrated luminosity
+
+*) plotRPCDetEff.py
+ - plot total sector eff, as function of time and lumi,
+   separately using all live panels and only fine panels
+ - plot number of all live, good and fine panels a function time and lumi
+ - save plots as pdf and png
+ - save histograms into output ROOT file
+ - make html page with links to all plots

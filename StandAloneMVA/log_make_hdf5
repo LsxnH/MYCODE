@@ -1,0 +1,74 @@
+VarMan - 11 input vars: ['m_jets_Eta', 'm_jets_Phi', 'm_jets_Pt', 'm_leps_Eta', 'm_leps_Phi', 'm_leps_Pt', 'Event', 'MCChannel', 'METFinalTrack_MET', 'METFinalTrack_Phi', 'NJet']
+VarMan - 6 train vars: ['m_jets_Eta', 'm_jets_Phi', 'm_jets_Pt', 'm_leps_Eta', 'm_leps_Phi', 'm_leps_Pt']
+VarMan - 5 extra vars: ['Event', 'MCChannel', 'METFinalTrack_MET', 'METFinalTrack_Phi', 'NJet']
+   index  0 - m_jets_Eta
+   index  1 - m_jets_Phi
+   index  2 - m_jets_Pt
+   index  3 - m_leps_Eta
+   index  4 - m_leps_Phi
+   index  5 - m_leps_Pt
+   index  6 - Event
+   index  7 - MCChannel
+   index  8 - METFinalTrack_MET
+   index  9 - METFinalTrack_Phi
+   index 10 - NJet
+  --nevent=None
+  --nclass=2
+  --njet=5
+    outkey=wh_ss_incl_large_njet5_nlepvar3_njetvar3_nclass2
+Start job at ui01.hep.ustc.edu.cn:/home/hengli/testarea/StandAloneMVA
+Current time: Sun Aug  8 19:00:01 2021
+   read  2195 branch entries
+Number of total training events: 1124
+   class= 0 number of training events = 1124
+Number of total testing events: 1071
+   class= 0 number of testing events = 1071
+readFile - all is done for debug.root
+main - prepared training events: 1124
+main - prepared testing  events: 1071
+prepNumpyArrays - train: begin 36.7 MB
+prepNumpyArrays - train: begin after garbage collection 36.5 MB
+prepNumpyArrays - train: allocated numpy arrays for training events 36.5 MB
+prepNumpyArrays - train: filled arrays for training events 36.5 MB
+prepNumpyArrays - train: deleted input events 36.5 MB
+Out lep train data size=6744, shape=(1124, 2, 3)
+Out jet train data size=16860, shape=(1124, 5, 3)
+Out extra data size=5620, shape=(1124, 5)
+   train class 0: number events = 1124
+   train class 1: number events = 0
+prepNumpyArrays - train: all done 36.5 MB
+prepNumpyArrays - test: begin 36.5 MB
+prepNumpyArrays - test: begin after garbage collection 36.5 MB
+prepNumpyArrays - test: allocated numpy arrays for training events 36.8 MB
+prepNumpyArrays - test: filled arrays for training events 36.8 MB
+prepNumpyArrays - test: deleted input events 36.8 MB
+Out lep train data size=6426, shape=(1071, 2, 3)
+Out jet train data size=16065, shape=(1071, 5, 3)
+Out extra data size=5355, shape=(1071, 5)
+   test class 0: number events = 1071
+   test class 1: number events = 0
+prepNumpyArrays - test: all done 36.8 MB
+main - saving results to: wh_ss_incl_large_njet5_nlepvar3_njetvar3_nclass2.h5
+Save "train_lep_data"     with data shape=(1124, 2, 3)        , size=1124
+Save "train_jet_data"     with data shape=(1124, 5, 3)        , size=1124
+Save "train_extra_data"   with data shape=(1124, 5)           , size=1124
+Save "train_labels"       with data shape=(1124,)             , size=1124
+Save "train_weights"      with data shape=(1124,)             , size=1124
+Save "test_lep_data"      with data shape=(1071, 2, 3)        , size=1071
+Save "test_jet_data"      with data shape=(1071, 5, 3)        , size=1071
+Save "test_extra_data"    with data shape=(1071, 5)           , size=1071
+Save "test_labels"        with data shape=(1071,)             , size=1071
+Save "test_weights"       with data shape=(1071,)             , size=1071
+Train 3 vars: m_leps_Eta, m_leps_Phi, m_leps_Pt
+Train 3 vars: m_jets_Eta, m_jets_Phi, m_jets_Pt
+Extra 5 vars: Event, MCChannel, METFinalTrack_MET, METFinalTrack_Phi, NJet
+class 0 label="WH"
+class 1 label="WZ"
+  --nevent=None
+  --nclass=2
+  --njet=5
+    outkey=wh_ss_incl_large_njet5_nlepvar3_njetvar3_nclass2
+Local time: Sun Aug  8 19:00:02 2021
+Total time: 0.3s
+/usr/local/lib/python3.6/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters

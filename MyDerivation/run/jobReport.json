@@ -1,0 +1,165 @@
+{
+  "cmdLine": "'/cvmfs/atlas.cern.ch/repo/sw/software/21.2/AthDerivation/21.2.51.0/InstallArea/x86_64-slc6-gcc62-opt/share/Reco_tf.py' '--inputAODFile' '/lustre/AtlUser/liheng/data/WH_AOD_mc16a/mc16_13TeV.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu.merge.AOD.e3601_s3126_r9364_r9315/AOD.11182597._000557.pool.root.1' '--outputDAODFile' 'output.pool.root' '--reductionConf' 'MUON5' '--maxEvents' '100'", 
+  "created": "2019-05-03T23:53:14", 
+  "executor": [
+    {
+      "asetup": null, 
+      "errMsg": "", 
+      "exeConfig": {
+        "inputs": [
+          "AOD"
+        ], 
+        "outputs": [
+          "DAOD_MUON5"
+        ], 
+        "script": "athena.py", 
+        "substep": "a2da"
+      }, 
+      "logfileReport": {
+        "countSummary": {
+          "CATASTROPHE": 0, 
+          "CRITICAL": 0, 
+          "DEBUG": 9, 
+          "ERROR": 0, 
+          "FATAL": 0, 
+          "IGNORED": 0, 
+          "INFO": 6962, 
+          "UNKNOWN": 4372, 
+          "VERBOSE": 0, 
+          "WARNING": 5804
+        }, 
+        "details": {}
+      }, 
+      "metaData": {}, 
+      "name": "AODtoDAOD", 
+      "rc": 0, 
+      "statusOK": true, 
+      "validation": true
+    }
+  ], 
+  "exitAcronym": "OK", 
+  "exitCode": 0, 
+  "exitMsg": "OK", 
+  "exitMsgExtra": "", 
+  "files": {
+    "input": [
+      {
+        "dataset": null, 
+        "nentries": 10000, 
+        "subFiles": [
+          {
+            "file_guid": "1207CB0D-395D-2F4B-A553-AF8F697B5518", 
+            "name": "AOD.11182597._000557.pool.root.1"
+          }
+        ], 
+        "type": "AOD"
+      }
+    ], 
+    "output": [
+      {
+        "argName": "MUON5", 
+        "dataset": null, 
+        "subFiles": [
+          {
+            "file_guid": "CCA222CA-7EB3-214F-9F5E-429429EBAD00", 
+            "file_size": 13015739, 
+            "name": "DAOD_MUON5.output.pool.root", 
+            "nentries": 92
+          }
+        ], 
+        "type": "AOD"
+      }
+    ]
+  }, 
+  "name": "Reco_tf", 
+  "reportVersion": "2.0.9", 
+  "resource": {
+    "dbDataTotal": 3175696, 
+    "dbTimeTotal": 366.46, 
+    "executor": {
+      "AODtoDAOD": {
+        "cpuTime": 186.73, 
+        "dbData": 3175696, 
+        "dbTime": 366.46, 
+        "memory": {
+          "Avg": {
+            "avgPSS": 798194, 
+            "avgRSS": 804025, 
+            "avgSwap": 0, 
+            "avgVMEM": 1454163, 
+            "rateRBYTES": 1797004, 
+            "rateRCHAR": 385271, 
+            "rateWBYTES": 540369, 
+            "rateWCHAR": 17476
+          }, 
+          "Max": {
+            "maxPSS": 1632314, 
+            "maxRSS": 1635800, 
+            "maxSwap": 0, 
+            "maxVMEM": 2544540, 
+            "totRBYTES": 1750282240, 
+            "totRCHAR": 375254420, 
+            "totWBYTES": 526319616, 
+            "totWCHAR": 17022075
+          }
+        }, 
+        "nevents": 100, 
+        "postExe": {
+          "cpuTime": 10.77, 
+          "wallTime": 0.91
+        }, 
+        "preExe": {
+          "cpuTime": 0.37, 
+          "wallTime": 0.58
+        }, 
+        "total": {
+          "cpuTime": 197.87, 
+          "wallTime": 1002.98
+        }, 
+        "validation": {
+          "cpuTime": 0.0, 
+          "wallTime": 1.42
+        }, 
+        "wallTime": 1000.07
+      }
+    }, 
+    "machine": {
+      "cpu_family": "6", 
+      "linux_distribution": [
+        "Scientific Linux", 
+        "6.10", 
+        "Carbon"
+      ], 
+      "model": "62", 
+      "model_name": "Intel(R) Xeon(R) CPU E5-2620 v2 @ 2.10GHz", 
+      "node": "ui01", 
+      "platform": "Linux-2.6.32-754.el6.x86_64-x86_64-with-redhat-6.10-Carbon"
+    }, 
+    "transform": {
+      "cpuEfficiency": 0.1963, 
+      "cpuPWEfficiency": 0.1963, 
+      "cpuTime": 12.55, 
+      "cpuTimeTotal": 197.87, 
+      "externalCpuTime": 11.52, 
+      "inFileValidation": {
+        "cpuTime": 0.03, 
+        "wallTime": 7.32
+      }, 
+      "outFileValidation": {
+        "cpuTime": 0.0, 
+        "wallTime": 0.99
+      }, 
+      "processedEvents": 100, 
+      "reportGeneration": {
+        "cpuTime": 0.26, 
+        "wallTime": 3.3
+      }, 
+      "transformSetup": {
+        "cpuTime": 0.0, 
+        "wallTime": 0.7
+      }, 
+      "trfPredata": null, 
+      "wallTime": 1015.29
+    }
+  }
+}

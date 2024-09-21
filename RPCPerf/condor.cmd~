@@ -1,0 +1,10 @@
+GetEnv = false
+Executable = /home/hengli/rpcsim/runcondor.sh 
+#Arguments = $(Process)
+LOCATION=/moose/AtlUser/liheng/LOGS/mrpcsim
+Output =  $(LOCATION)/rpcsim_1_$(Process).out
+Log =  $(LOCATION)/rpcsim_1_$(Process).log
+Error =$(LOCATION)/rpcsim_1_$(Process).err
+Queue 
+#Queue 100
+

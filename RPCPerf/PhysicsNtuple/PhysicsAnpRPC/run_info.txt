@@ -1,0 +1,12 @@
+# 
+# row 0: run number 
+# row 1: number of lumiblocks 
+# row 2: peak          offline instantenous luminosity in stable beams and in ATLAS physics mode [x10^30 cm^-2*s^-1] 
+# row 3: time averaged offline instantenous luminosity in stable beams and in ATLAS physics mode [x10^30 cm^-2*s^-1] 
+# row 4: online          integrated luminosity [pb^-1] 
+# row 5: offline physics integrated luminosity [pb^-1] 
+# row 6: run start timestamp [ns] 
+# row 7: run end   timestamp [ns] 
+# row 8: date 
+# 
+303814   35  7698.2  7480.5     15.513     14.876 1468371710039857050 1468373688670645840 2016-07-13 

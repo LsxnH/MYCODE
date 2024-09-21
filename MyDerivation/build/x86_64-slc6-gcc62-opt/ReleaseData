@@ -1,0 +1,8 @@
+[release_metadata]
+release:1.0.0
+nightly name:Unknown
+project name:WorkDir
+nightly release:Unknown
+date:2019-05-03T2333
+compiler:GNU-6.2.0
+cxxpath:/cvmfs/sft.cern.ch/lcg/releases/gcc/6.2.0-2bc78/x86_64-slc6-gcc62-opt/bin/g++

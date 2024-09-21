@@ -1,0 +1,15 @@
+ - Correlate AND and OR for phi and eta for same layer, doublet gas gap
+ - Correlate RPC efficiency with DCS state in COOL
+   Follow with Marco and Alessandro about accessing COOL data
+ - Plot time residuals per CM in eta and phi for RPC panels
+   alignment constant per CM with ~3ns precision
+ - Noise scan once per year with beam off
+   setup random trigger with partial event building for RPC only
+ - DCS HV scan for ATLAS as a function of time
+   measure pinch voltage V0, exponential and linear slopes - Hong Kong
+   important measurements that can be published
+ - Optimisation of HV and thresholds of panels - open big task
+   300  HV channels - low granularity
+   3000 thresholds - roughly per panel (can double for phase 2)
+   there are correlations between thresholds and panel efficiency
+ 

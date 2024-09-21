@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Edited By POOL -->
+<!DOCTYPE POOLFILECATALOG SYSTEM "InMemory">
+<POOLFILECATALOG>
+  <File ID="1207CB0D-395D-2F4B-A553-AF8F697B5518">
+    <physical>
+      <pfn filetype="ROOT_All" name="/lustre/AtlUser/liheng/data/WH_AOD_mc16a/mc16_13TeV.361107.PowhegPythia8EvtGen_AZNLOCTEQ6L1_Zmumu.merge.AOD.e3601_s3126_r9364_r9315/AOD.11182597._000557.pool.root.1"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="CCA222CA-7EB3-214F-9F5E-429429EBAD00">
+    <physical>
+      <pfn filetype="ROOT_All" name="DAOD_MUON5.output.pool.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+</POOLFILECATALOG>

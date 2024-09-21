@@ -1,0 +1,16 @@
+(i__main__
+LogFile
+p0
+(dp1
+S'_installed_files'
+p2
+(dp3
+S'../../../PhysicsNtuple/PhysicsAnpRPC/x86_64-slc6-gcc49-opt/libPhysicsAnpRPC.so.debug'
+p4
+S'../../../InstallArea/x86_64-slc6-gcc49-opt/lib/libPhysicsAnpRPC.so.debug'
+p5
+sS'../../../PhysicsNtuple/PhysicsAnpRPC/x86_64-slc6-gcc49-opt/libPhysicsAnpRPC.so'
+p6
+S'../../../InstallArea/x86_64-slc6-gcc49-opt/lib/libPhysicsAnpRPC.so'
+p7
+ssb.

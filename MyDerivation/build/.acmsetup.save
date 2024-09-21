@@ -1,0 +1,4 @@
+SourceArea = /hepustc/home/hengli/testarea/MyDerivation/source
+TestArea = /hepustc/home/hengli/testarea/MyDerivation/build
+ACM_GITLAB_PATH_PREFIX = https://:@gitlab.cern.ch:8443/
+asetupArguments = AthDerivation,21.2.51.0

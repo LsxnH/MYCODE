@@ -1,0 +1,31 @@
+
+Input histogram file: o.root
+
+*) Current analysis macro for reference:
+  - https://svnweb.cern.ch/trac/atlasoff/browser/MuonSpectrometer/MuonValidation/MuonTriggerValidation/trunk/macros/makeplots.C?rev=804052
+  - "bc" folder stores timing information
+  - "eff" folder stores histograms for efficiency calculation
+
+*) Global 1d timing histograms:
+
+  bc/muctpi_global             - fraction of hits within +/- 3 bunch crossings
+  bc/muctpi_ptcut_hi_global    - fraction of hits within +/- 3 bunch crossings with pt cut
+  bc/muctpi_hi_global          - fraction of hits within +/- 3 bunch crossings with high pt L1 threshold
+  bc/muctpi_lo_global          - fraction of hits within +/- 3 bunch crossings with low  pt L1 threshold
+
+*) 2d timing histograms per tower
+  
+  bc/muctpi_lo_all             - number of low threshold hits - all hits
+  bc/muctpi_lo_bcid0_all       - number of low threshold hits - hits within bc0
+
+  bc/muctpi_hi_all             - number of high threshold hits - all hits
+  bc/muctpi_hi_bcid0_all       - number of high threshold hits - hits within bc0
+
+*) 1d efficiency histograms
+
+ - barrel RPC efficiency with respect to muon spectrometer track
+ 
+  eff/pt_b_all                 - denominator for efficiency calculation - all muons
+  eff/muctpi_b_pt_thN (N=1-6)  - numerator for efficiency calculation per threshold
+
+  
